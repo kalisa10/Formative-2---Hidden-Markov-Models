@@ -6,7 +6,7 @@ Individual project by **kalisa10**. A Hidden Markov Model, written from scratch 
 
 | Item | Location |
 |---|---|
-| Report | [report/Hidden_Markov_Models_Report.pdf](report/Hidden_Markov_Models_Report.pdf) (source: [report/report.md](report/report.md)) |
+| Report | [report/Hidden_Markov_Models_Report.pdf](report/Hidden_Markov_Models_Report.pdf) |
 | Notebook | [notebooks/hmm_activity_recognition.ipynb](notebooks/hmm_activity_recognition.ipynb) |
 | Raw Sensor Logger recordings | `data/raw/` (training) and `data/test/` (unseen) |
 | Resampled CSV files (50 Hz, with timestamp column) | `data/processed/` |
