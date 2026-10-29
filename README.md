@@ -35,7 +35,8 @@ Individual project by **kalisa10**. A Hidden Markov Model, written from scratch 
 3. Features (38 per window): time domain (mean, variance, standard deviation, SMA, axis correlation) and frequency domain (FFT dominant frequency, spectral energy, four band energies).
 4. Z-score standardisation and PCA to 8 components, fitted on training windows only.
 5. HMM with full-covariance Gaussian emissions: supervised initialisation, **Baum-Welch** (stops when the relative log-likelihood gain is below 1e-4), **Viterbi** decoding, forward-backward posteriors.
-6. Evaluation on the unseen recordings: confusion matrix, sensitivity, specificity, accuracy, transition and emission plots.
+6. Automated correctness checks (Viterbi vs brute force, normalisation, Baum-Welch likelihood) and a cross-session test.
+7. Evaluation on the unseen recordings: confusion matrix, sensitivity, specificity, accuracy, transition and emission plots.
 
 ## Results (unseen data, Viterbi)
 
@@ -47,7 +48,7 @@ Individual project by **kalisa10**. A Hidden Markov Model, written from scratch 
 | Still | 16 | 1.000 | 1.000 | 1.000 |
 | All | 64 | | | 1.000 |
 
-The unseen clips come from the same person and phone and there are only 64 windows, so the score is optimistic. See the report for the discussion.
+The unseen clips come from the same person and phone and there are only 64 windows, so the score is optimistic. A cross-session check (train on one recording day, test on the other) gives 78.0 % and 93.9 % (`report/figures/cross_session.csv`). See the report for the discussion.
 
 ## How to run
 
