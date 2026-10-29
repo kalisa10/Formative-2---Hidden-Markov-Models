@@ -1,0 +1,3 @@
+,train clips,test clips,test windows,accuracy,sens standing,sens walking,sens jumping,sens still
+train 26 Oct -> test 29 Oct,20.0,20.0,164.0,0.78,0.439,0.675,1.0,1.0
+train 29 Oct -> test 26 Oct,20.0,20.0,164.0,0.939,0.872,0.905,1.0,0.976
