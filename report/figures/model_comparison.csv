@@ -1,0 +1,5 @@
+model,unseen accuracy
+frame-wise Gaussian (no A),0.984
+"HMM, supervised counts + Viterbi",0.984
+"HMM, supervised start + Baum-Welch + Viterbi",1.0
+"HMM, k-means start + Baum-Welch + Viterbi",1.0
